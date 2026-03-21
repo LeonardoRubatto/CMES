@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="">
+<head>
+<meta charset="UTF-8">
+<script>(function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://mesures.wecalc.fr/">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-ancestors *; base-uri 'self'; form-action 'self'">
+<title>Convertisseur de Mesures 2026 — Longueur, Masse, Volume, Température | wecalc.fr</title>
+<meta name="description" content="Convertissez longueur, masse, volume, surface, température, vitesse, pression, énergie, angle et données. Facteurs officiels BIPM &amp; NIST 2026. Outil gratuit.">
+<meta name="keywords" content="convertisseur de mesures, convertisseur d'unités, convertisseur de mesure, conversion unités, convertisseur métrique, convertisseur universel, mètre en pied, pouce en cm, kg en lb, livre en kilo, litre en gallon, hectare en acre, m2 en ft2, m3 en litres, celsius fahrenheit kelvin, kmh en mph, nœud en kmh, bar en psi, mmhg en pa, joule en kwh, watt en cheval, angle en radians, degré en radian, convertisseur données, kb mb gb, kib mib gib, outil conversion gratuit, conversion métrique impériale, convertisseur longueur masse volume, convertisseur surface température, convertisseur pression, convertisseur vitesse, convertisseur données ko mo go, convertisseur temps secondes minutes, convertisseur puissance watts chevaux, convertisseur énergie joule kwh, convertisseur angle radians degrés, convertisseur scientifique, unités SI officielles, BIPM NIST facteurs conversion">
+<meta name="author" content="ConvertisseurMesure">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Convertisseur de Mesures 2026 — Longueur, Masse, Volume, Température | ConvertisseurMesure">
+<meta property="og:description" content="Convertissez toutes vos unités : longueur, masse, volume, température, vitesse, pression et plus. Facteurs officiels BIPM &amp; NIST 2026. Gratuit.">
+<meta property="og:url" content="https://mesures.wecalc.fr/">
+<meta property="og:image" content="https://mesures.wecalc.fr/og-image.png">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="wecalc.fr">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Convertisseur de Mesures 2026 — BIPM &amp; NIST">
+<meta name="twitter:description" content="Longueur, masse, volume, température, vitesse, pression et données. Facteurs officiels. Gratuit.">
+<meta name="twitter:image" content="https://mesures.wecalc.fr/og-image.png">
+<meta name="twitter:image:alt" content="Convertisseur universel de mesures — longueur, masse, volume, température et plus">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0F766E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name": "Convertisseur Mesures","description":"Convertisseur universel d'unités de mesure : longueur, masse, volume, surface, température, temps, vitesse, pression, énergie, puissance, angle et données. Facteurs officiels BIPM &amp; NIST 2026.","url":"https://mesures.wecalc.fr","applicationCategory":"UtilityApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"ConvertisseurMesure","url":"https://mesures.wecalc.fr","description":"Convertisseur gratuit d'unités de mesure — facteurs officiels BIPM &amp; NIST 2026","inLanguage":"fr-FR","publisher":{"@type":"Organization","name": "wecalc.fr","url": "https://wecalc.fr/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculateurs","item":"https://wecalc.fr/"},{"@type":"ListItem","position":2,"name":"Outils","item":"https://wecalc.fr/outils/"},{"@type":"ListItem","position":3,"name":"Convertisseur de Mesures","item":"https://mesures.wecalc.fr/"}]}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Qu'est-ce qu'un convertisseur de mesures ?","acceptedAnswer":{"@type":"Answer","text":"Un convertisseur de mesures est un outil qui transforme une valeur d'une unité vers une autre à l'aide d'un facteur de conversion officiel. Ce convertisseur de mesures couvre les principales familles fixes comme la longueur, la masse, le volume, la surface, la température et la pression."}},
+    {"@type":"Question","name":"Quelle est la différence entre conversion métrique et impériale ?","acceptedAnswer":{"@type":"Answer","text":"Le système métrique repose sur le SI et ses préfixes décimaux, tandis que le système impérial ou anglo-saxon utilise des unités comme inch, foot, pound ou gallon. Un bon convertisseur de mesures doit gérer les deux sans ambiguïté."}},
+    {"@type":"Question","name":"Peut-on convertir des températures avec la même formule que les autres unités ?","acceptedAnswer":{"@type":"Answer","text":"Non. Les températures utilisent des formules affines avec un décalage, par exemple °C vers K ou °F vers °C. Ce n'est pas une simple multiplication par un facteur."}},
+    {"@type":"Question","name":"Pourquoi 1 MB n'est pas toujours égal à 1 MiB ?","acceptedAnswer":{"@type":"Answer","text":"MB utilise généralement les préfixes décimaux du SI, donc 1 MB = 1 000 000 octets, alors que MiB utilise les préfixes binaires IEC, donc 1 MiB = 1 048 576 octets. Le site doit afficher clairement le mode utilisé."}},
+    {"@type":"Question","name":"Les facteurs de conversion utilisés sont-ils exacts ?","acceptedAnswer":{"@type":"Answer","text":"Beaucoup le sont, notamment pour le pouce, le pied international, le mile, le litre ou l'hectare, car ils proviennent de définitions officielles. D'autres sont des valeurs normatives publiées par des organismes comme le BIPM ou le NIST."}},
+    {"@type":"Question","name":"Ce convertisseur de mesures inclut-il les devises ?","acceptedAnswer":{"@type":"Answer","text":"Non. Les devises dépendent de taux variables et ne relèvent pas d'une conversion fixe. Le site est limité aux mesures à facteur constant."}}
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfyfIamezgVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+:root{
+  --blue:#0F766E;--blue-l:#F0FDFA;--blue-d:#0d5e57;--blue-mid:#14B8A6;
+  --green:#059669;--green-l:#ECFDF5;
+  --orange:#D97706;--orange-l:#FFFBEB;
+  --red:#DC2626;--red-l:#FEF2F2;
+  --gray-50:#F9FAFB;--gray-100:#F3F4F6;--gray-200:#E5E7EB;--gray-300:#D1D5DB;
+  --gray-400:#9CA3AF;--gray-500:#6B7280;--gray-700:#374151;--gray-900:#111827;
+  --white:#FFFFFF;--body-bg:#dde6ef;
+  --card-shadow:0 1px 2px rgba(0,0,0,.06),0 4px 16px rgba(0,0,0,.06);
+  --card-shadow-hover:0 4px 6px rgba(0,0,0,.07),0 12px 24px rgba(0,0,0,.10);
+  --radius:14px;--radius-sm:8px;
+  --font-main:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;
+  --font-mono:'DM Mono','Fira Code',monospace;
+  --transition-fast:150ms cubic-bezier(0.4,0,0.2,1);
+  --transition-smooth:300ms cubic-bezier(0.4,0,0.2,1);
+}
+[data-theme="dark"]{
+  --body-bg:#080e18;--white:#0f172a;--gray-50:#2a3442;--gray-100:#313c4a;
+  --gray-200:#3e4a5a;--gray-400:#7a8798;--gray-500:#b8c2cf;--gray-700:#d6dde6;--gray-900:#ffffff;
+}
+[data-theme="dark"] body{background:var(--body-bg);color:var(--gray-900);}
+[data-theme="dark"] .card,[data-theme="dark"] .site-header,[data-theme="dark"] .modal-box{background:var(--white);border-color:var(--gray-200);}
+[data-theme="dark"] .seg-ctrl{background:var(--gray-100);border-color:var(--gray-200);}
+[data-theme="dark"] .seg-btn.active{background:var(--gray-50);}
+[data-theme="dark"] input[type="number"],[data-theme="dark"] select{background:var(--gray-50);border-color:var(--gray-200);color:var(--gray-900);}
+[data-theme="dark"] .radio-pill label{background:var(--gray-50);border-color:var(--gray-200);color:var(--gray-500);}
+[data-theme="dark"] .radio-pill input:checked+label{background:#0d3d38;border-color:var(--blue);color:#5eead4;}
+[data-theme="dark"] .opt-toggle{background:var(--white);}
+[data-theme="dark"] .opt-toggle:hover{background:var(--gray-50);}
+[data-theme="dark"] .opt-body{background:var(--gray-50);border-top-color:var(--gray-200);}
+[data-theme="dark"] .bk-group-head{background:var(--gray-100);}
+[data-theme="dark"] .aff-card{background:var(--white);border-color:var(--gray-200);}
+[data-theme="dark"] .btn-ghost{background:var(--white);border-color:var(--gray-200);color:var(--gray-700);}
+[data-theme="dark"] .site-footer{background:var(--gray-100);border-top-color:var(--gray-200);}
+[data-theme="dark"] .footer-col h3,[data-theme="dark"] .footer-col h4{color:var(--gray-900);}
+[data-theme="dark"] .footer-col ul li a,[data-theme="dark"] .footer-col p{color:var(--gray-500);}
+[data-theme="dark"] .footer-bottom{border-top-color:var(--gray-200);color:var(--gray-500);}
+/* --- BASE --- */
+body{font-family:var(--font-main);background:var(--body-bg);color:var(--gray-900);line-height:1.55;font-size:15px;min-height:100vh;}
+::-webkit-scrollbar{width:8px;height:8px;}
+::-webkit-scrollbar-track{background:var(--gray-50);border-radius:4px;}
+::-webkit-scrollbar-thumb{background:var(--gray-300);border-radius:4px;}
+::-webkit-scrollbar-thumb:hover{background:var(--gray-400);}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:2px;}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}}
+@media(prefers-contrast:more){:root{--blue:#0c5a54;--green:#006622;--gray-500:#555555;--gray-700:#1a1a1a;}}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+/* --- HEADER --- */
+.site-header{background:var(--white);border-bottom:1px solid var(--gray-200);position:sticky;top:0;z-index:200;box-shadow:0 1px 0 var(--gray-200),0 2px 8px rgba(0,0,0,.05);}
+.header-inner{max-width:1320px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0;}
+.logo-mark{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--blue) 0%,var(--blue-d) 100%);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:14px;letter-spacing:-.5px;flex-shrink:0;box-shadow:0 2px 8px rgba(15,118,110,.35);}
+.logo-info{display:flex;flex-direction:column;gap:1px;}
+.logo-name{font-size:17px;font-weight:800;color:var(--gray-900);letter-spacing:-.4px;line-height:1;}
+.logo-name span{color:var(--blue);}
+.logo-sub{font-size:11px;color:var(--gray-500);font-weight:400;line-height:1;}
+.header-right{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.badge{font-size:11px;font-weight:700;padding:5px 12px;border-radius:20px;white-space:nowrap;letter-spacing:.3px;display:flex;align-items:center;gap:5px;}
+.badge-teal{background:var(--blue-l);color:var(--blue);border:1px solid #99f6e4;}
+.badge-green{background:var(--green-l);color:var(--green);border:1px solid #A7F3D0;}
+.theme-btn{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--gray-200);background:var(--white);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.08);transition:all .2s;flex-shrink:0;}
+.theme-btn:hover{border-color:var(--blue);transform:scale(1.08);}
+.ui-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;}
+.ui-icon img{width:20px;height:20px;display:block;}
+@media(max-width:640px){.header-right .badge{display:none;}}
+/* --- LAYOUT --- */
+.page-wrap{max-width:1320px;margin:0 auto;padding:28px 24px 48px;display:grid;grid-template-columns:440px 1fr;gap:24px;align-items:start;}
+.col-results{position:sticky;top:80px;max-height:calc(100vh - 96px);overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:var(--gray-300) transparent;}
+.col-results .card{overflow:visible;}
+/* --- CARD --- */
+.card{background:var(--white);border-radius:var(--radius);border:1px solid var(--gray-200);box-shadow:var(--card-shadow);overflow:hidden;margin-bottom:16px;}
+.card:last-child{margin-bottom:0;}
+.card-head{padding:18px 22px 16px;border-bottom:1px solid var(--gray-100);display:flex;align-items:center;gap:10px;}
+.card-head-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--blue-l);flex-shrink:0;}
+.card-head h2{font-size:14.5px;font-weight:700;color:var(--gray-900);letter-spacing:-.2px;}
+.card-body{padding:22px;}
+/* --- SECTION LABELS --- */
+.sec-label{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--gray-500);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.sec-label::after{content:'';flex:1;height:1px;background:var(--gray-100);}
+.form-section{margin-bottom:22px;}
+.form-section:last-child{margin-bottom:0;}
+/* --- FIELD --- */
+.field{margin-bottom:14px;}
+.field:last-child{margin-bottom:0;}
+.field-label{display:block;font-size:13px;font-weight:600;color:var(--gray-700);margin-bottom:7px;}
+.field input[type="number"],.field select{width:100%;padding:10px 14px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-size:14px;font-family:var(--font-main);color:var(--gray-900);background:var(--white);transition:border-color .18s,box-shadow .18s;outline:none;appearance:none;-webkit-appearance:none;}
+.field input[type="number"]:focus,.field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(15,118,110,.10);}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236B7280' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px;cursor:pointer;}
+.field-note{font-size:11.5px;color:var(--gray-500);margin-top:5px;line-height:1.5;}
+/* --- SEG CTRL --- */
+.seg-ctrl{display:flex;background:var(--gray-100);border-radius:10px;padding:4px;margin-bottom:16px;border:1px solid var(--gray-200);}
+.seg-btn{flex:1;padding:9px 12px;border:none;border-radius:7px;font-size:13px;font-weight:600;font-family:var(--font-main);cursor:pointer;transition:all .2s;color:var(--gray-500);background:transparent;text-align:center;}
+.seg-btn.active{background:var(--white);color:var(--blue);box-shadow:0 1px 4px rgba(0,0,0,.10);}
+/* --- RADIO PILLS --- */
+.radio-group{display:flex;gap:8px;flex-wrap:wrap;}
+.radio-pill{flex:1;min-width:72px;}
+.radio-pill input[type="radio"]{display:none;}
+.radio-pill label{display:flex;align-items:center;justify-content:center;gap:5px;padding:9px 10px;border:1.5px solid var(--gray-200);border-radius:9px;font-size:12.5px;font-weight:600;color:var(--gray-500);cursor:pointer;transition:all .18s;text-align:center;background:var(--white);line-height:1.2;}
+.radio-pill input[type="radio"]:checked+label{border-color:var(--blue);background:var(--blue-l);color:var(--blue);}
+.radio-pill label:hover{border-color:var(--gray-400);color:var(--gray-700);}
+/* --- TWO COLS --- */
+.two-cols{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.two-cols .field{margin-bottom:0;}
+/* --- OPT TOGGLES --- */
+.opt-item{border:1.5px solid var(--gray-200);border-radius:11px;overflow:hidden;margin-bottom:10px;transition:border-color .2s;}
+.opt-item.on{border-color:var(--blue);}
+.opt-item:last-child{margin-bottom:0;}
+.opt-toggle{display:flex;align-items:center;justify-content:space-between;padding:13px 16px;cursor:pointer;background:var(--white);transition:background .15s;user-select:none;}
+.opt-toggle:hover{background:var(--gray-50);}
+.opt-toggle:focus-visible{outline:2px solid var(--blue);outline-offset:-2px;}
+.opt-toggle-left{display:flex;align-items:center;gap:10px;font-size:13.5px;font-weight:600;color:var(--gray-700);}
+.opt-toggle-icon{width:20px;height:20px;display:flex;align-items:center;justify-content:center;border-radius:5px;background:var(--blue-l);}
+.switch{width:38px;height:21px;border-radius:11px;background:var(--gray-300);position:relative;flex-shrink:0;transition:background .2s;}
+.switch::after{content:'';position:absolute;top:2.5px;left:2.5px;width:16px;height:16px;border-radius:50%;background:var(--white);box-shadow:0 1px 3px rgba(0,0,0,.2);transition:left .2s;}
+.opt-item.on .switch{background:var(--blue);}
+.opt-item.on .switch::after{left:19.5px;}
+.opt-body{padding:16px;background:var(--gray-50);border-top:1px solid var(--gray-100);display:none;}
+.opt-item.on .opt-body{display:block;}
+/* --- BUTTONS --- */
+.action-row{display:flex;gap:10px;margin-top:16px;}
+.btn{flex:1;padding:11px 16px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;font-family:var(--font-main);cursor:pointer;border:none;transition:all .18s;display:flex;align-items:center;justify-content:center;gap:7px;letter-spacing:-.1px;}
+.btn:active{transform:scale(.97);}
+.btn-ghost{background:var(--white);color:var(--gray-700);border:1.5px solid var(--gray-200);}
+.btn-ghost:hover{background:var(--gray-50);border-color:var(--gray-400);}
+.btn:disabled{opacity:.5;cursor:not-allowed;}
+.share-field{display:none;gap:8px;margin-top:12px;align-items:center;}
+.share-field input{flex:1;padding:9px 12px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-size:12px;color:var(--gray-500);background:var(--gray-50);outline:none;font-family:var(--font-mono);}
+.share-field button{padding:9px 16px;background:var(--blue);color:var(--white);border:none;border-radius:var(--radius-sm);font-size:12.5px;font-weight:700;font-family:var(--font-main);cursor:pointer;white-space:nowrap;transition:background .15s;}
+.share-field button:hover{background:var(--blue-d);}
+/* --- SWAP BUTTON --- */
+.swap-btn{width:100%;padding:9px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);background:var(--white);color:var(--gray-700);font-size:12.5px;font-weight:700;font-family:var(--font-main);cursor:pointer;transition:all .18s;margin:8px 0;}
+.swap-btn:hover{background:var(--blue-l);border-color:var(--blue);color:var(--blue);}
+/* --- RESULTS --- */
+.empty-state{text-align:center;padding:48px 24px;color:var(--gray-400);}
+.empty-icon{width:44px;height:44px;margin:0 auto 14px;opacity:.5;}
+.empty-state p{font-size:14px;line-height:1.6;}
+.empty-state p+p{font-size:12.5px;margin-top:6px;}
+/* Main result display */
+.result-main{border-radius:11px;padding:20px;background:var(--blue-l);border:1.5px solid #99f6e4;text-align:center;margin-bottom:16px;}
+.result-main .result-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--blue);margin-bottom:6px;}
+.result-main .result-value{font-size:32px;font-weight:800;color:var(--blue-d);font-family:var(--font-mono);letter-spacing:-.5px;line-height:1.1;word-break:break-all;}
+.result-main .result-unit{font-size:16px;font-weight:600;color:var(--blue);margin-top:4px;}
+.metrics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:16px;}
+.metric{border-radius:11px;padding:14px 15px;display:flex;flex-direction:column;gap:4px;text-align:center;}
+.metric.teal{background:var(--blue-l);border:1.5px solid #99f6e4;}
+.metric.green{background:var(--green-l);border:1.5px solid #A7F3D0;}
+.metric.orange{background:var(--orange-l);border:1.5px solid #FCD34D;}
+.metric.gray{background:var(--gray-50);border:1.5px solid var(--gray-200);}
+.metric-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;}
+.metric.teal .metric-label{color:var(--blue);}
+.metric.green .metric-label{color:var(--green);}
+.metric.orange .metric-label{color:var(--orange);}
+.metric.gray .metric-label{color:var(--gray-500);}
+.metric-value{font-size:14px;font-weight:800;line-height:1.2;letter-spacing:-.3px;font-variant-numeric:tabular-nums;font-family:var(--font-mono);word-break:break-all;}
+.metric.teal .metric-value{color:var(--blue-d);}
+.metric.green .metric-value{color:var(--green);}
+.metric.orange .metric-value{color:var(--orange);}
+.metric.gray .metric-value{color:var(--gray-700);}
+.metric-sub{font-size:10.5px;color:var(--gray-500);}
+/* --- ALERTS --- */
+.alerts-zone{margin-bottom:8px;}
+.alert{display:flex;gap:9px;align-items:flex-start;border-radius:9px;padding:11px 14px;font-size:12.5px;line-height:1.5;margin-bottom:8px;}
+.alert:last-child{margin-bottom:0;}
+.alert-icon{flex-shrink:0;margin-top:1px;}
+.alert-icon img{width:16px;height:16px;}
+.alert.error{background:var(--red-l);border:1px solid #FECACA;color:#991B1B;}
+.alert.info{background:var(--blue-l);border:1px solid #99f6e4;color:var(--blue-d);}
+.alert.warn{background:var(--orange-l);border:1px solid #FCD34D;color:#92400E;}
+/* --- BREAKDOWN --- */
+.breakdown{margin-top:4px;}
+.bk-group{margin-bottom:4px;}
+.bk-group-head{display:flex;align-items:center;justify-content:space-between;padding:10px 13px;background:var(--gray-100);border-radius:9px;cursor:pointer;user-select:none;transition:background .15s;margin-bottom:2px;border:1px solid transparent;}
+.bk-group-head:hover{background:var(--gray-200);}
+.bk-group-head:focus-visible{outline:2px solid var(--blue);outline-offset:-2px;}
+.bk-group.open .bk-group-head{background:var(--blue-l);border-color:#99f6e4;}
+.bk-group-title{font-size:13px;font-weight:700;color:var(--gray-900);display:flex;align-items:center;gap:7px;}
+.bk-group.open .bk-group-title{color:var(--blue-d);}
+.bk-group-amt{font-size:13px;font-weight:700;color:var(--gray-700);font-family:var(--font-mono);}
+.bk-arrow{font-size:9px;color:var(--gray-400);transition:transform .2s;margin-left:4px;}
+.bk-group.open .bk-arrow{transform:rotate(180deg);}
+.bk-rows{display:none;padding:2px 2px 4px;}
+.bk-group.open .bk-rows{display:block;}
+.bk-row{display:flex;align-items:center;justify-content:space-between;padding:7px 10px;border-radius:7px;font-size:12.5px;transition:background .1s;}
+.bk-row:hover{background:var(--gray-50);}
+.bk-row-left{display:flex;flex-direction:column;gap:1px;flex:1;min-width:0;}
+.bk-row-name{color:var(--gray-900);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.bk-row-detail{color:var(--gray-400);font-size:11px;font-family:var(--font-mono);}
+.bk-row-amt{font-weight:700;color:var(--gray-700);white-space:nowrap;margin-left:14px;font-variant-numeric:tabular-nums;font-family:var(--font-mono);font-size:12px;}
+.results-foot{margin-top:14px;font-size:11px;color:var(--gray-400);text-align:center;line-height:1.5;}
+/* --- FLOAT BUTTON --- */
+.float-btn{position:fixed;bottom:24px;right:24px;background:var(--gray-900);color:var(--white);padding:13px 20px;border-radius:50px;font-size:13px;font-weight:700;font-family:var(--font-main);cursor:pointer;border:none;box-shadow:0 4px 20px rgba(0,0,0,.25);display:flex;align-items:center;gap:8px;transition:all .2s;z-index:150;}
+.float-btn:hover{background:var(--blue);transform:translateY(-2px);box-shadow:0 6px 24px rgba(15,118,110,.35);}
+@media(max-width:640px){.float-btn{bottom:16px;right:16px;padding:11px 16px;font-size:12px;}}
+/* --- MODAL --- */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:500;align-items:center;justify-content:center;padding:16px;}
+.modal-overlay.open{display:flex;}
+.modal-box{background:var(--white);border-radius:var(--radius);width:100%;max-width:720px;max-height:85vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.2);}
+.modal-head{padding:20px 24px;border-bottom:1px solid var(--gray-100);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;}
+.modal-head h3{font-size:16px;font-weight:800;color:var(--gray-900);}
+.modal-close{width:32px;height:32px;border:none;background:var(--gray-100);border-radius:8px;cursor:pointer;font-size:18px;color:var(--gray-500);display:flex;align-items:center;justify-content:center;}
+.modal-close:hover{background:var(--gray-200);}
+.modal-tabs{display:flex;gap:4px;padding:14px 24px 0;border-bottom:1px solid var(--gray-100);flex-shrink:0;}
+.modal-tab{padding:9px 16px;font-size:13px;font-weight:600;font-family:var(--font-main);border:none;background:transparent;cursor:pointer;color:var(--gray-500);border-radius:8px 8px 0 0;border-bottom:2px solid transparent;transition:all .18s;margin-bottom:-1px;}
+.modal-tab.active{color:var(--blue);border-bottom-color:var(--blue);background:var(--blue-l);}
+.modal-body{overflow-y:auto;flex:1;}
+.modal-pane{display:none;padding:24px;}
+.modal-pane.active{display:block;}
+/* Sources table */
+.sources-table{width:100%;border-collapse:collapse;font-size:12.5px;}
+.sources-table th{text-align:left;padding:8px 10px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gray-500);border-bottom:2px solid var(--gray-200);}
+.sources-table td{padding:9px 10px;border-bottom:1px solid var(--gray-100);color:var(--gray-700);vertical-align:top;}
+.sources-table tr:hover td{background:var(--gray-50);}
+.sources-table a{color:var(--blue);text-decoration:none;}
+.sources-table a:hover{text-decoration:underline;}
+.rate-pill{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--blue-l);color:var(--blue);white-space:nowrap;font-family:var(--font-mono);}
+/* Links */
+.link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px;border:1px solid var(--gray-200);border-radius:11px;margin-bottom:10px;}
+.link-card:last-child{margin-bottom:0;}
+.lc-title{font-size:13.5px;font-weight:700;color:var(--gray-900);margin-bottom:4px;}
+.lc-desc{font-size:12px;color:var(--gray-500);line-height:1.5;}
+.lc-link{flex-shrink:0;padding:8px 16px;background:var(--blue);color:#fff;border-radius:var(--radius-sm);font-size:12.5px;font-weight:700;font-family:var(--font-main);text-decoration:none;transition:background .15s;white-space:nowrap;}
+.lc-link:hover{background:var(--blue-d);}
+/* --- COOKIE BANNER --- */
+.cookie-banner{display:none;position:fixed;bottom:24px;left:24px;max-width:400px;background:var(--gray-900);color:#e5e7eb;border-radius:var(--radius);padding:20px;z-index:450;box-shadow:0 8px 32px rgba(0,0,0,.3);}
+.cookie-banner.show{display:block;}
+.cookie-banner p{font-size:12.5px;line-height:1.6;margin-bottom:14px;}
+.cookie-banner a{color:#99f6e4;text-decoration:underline;}
+.cookie-btns{display:flex;gap:8px;flex-wrap:wrap;}
+.cookie-btns button{flex:1;min-width:80px;padding:8px 12px;border-radius:var(--radius-sm);font-size:12px;font-weight:700;font-family:var(--font-main);cursor:pointer;border:none;transition:background .15s;}
+.cookie-btn-reject{background:#374151;color:#e5e7eb;}
+.cookie-btn-reject:hover{background:#4B5563;}
+.cookie-btn-settings{background:#374151;color:#e5e7eb;}
+.cookie-btn-settings:hover{background:#4B5563;}
+.cookie-btn-accept{background:var(--blue);color:#fff;}
+.cookie-btn-accept:hover{background:var(--blue-d);}
+/* --- COOKIE SETTINGS MODAL --- */
+.cookie-modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:600;align-items:center;justify-content:center;padding:16px;}
+.cookie-modal-overlay.open{display:flex;}
+.cookie-modal{background:var(--white);border-radius:var(--radius);width:100%;max-width:480px;box-shadow:0 20px 60px rgba(0,0,0,.2);}
+.cm-head{padding:20px 24px;border-bottom:1px solid var(--gray-100);display:flex;align-items:center;justify-content:space-between;}
+.cm-head h3{font-size:16px;font-weight:800;color:var(--gray-900);}
+.cm-close{width:32px;height:32px;border:none;background:var(--gray-100);border-radius:8px;cursor:pointer;font-size:18px;color:var(--gray-500);display:flex;align-items:center;justify-content:center;}
+.cm-close:hover{background:var(--gray-200);}
+.cm-body{padding:20px 24px;}
+.cm-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--gray-100);}
+.cm-row:last-child{border-bottom:none;}
+.cm-row-title{font-size:13.5px;font-weight:700;color:var(--gray-900);margin-bottom:4px;}
+.cm-row-desc{font-size:12px;color:var(--gray-500);line-height:1.5;}
+.cm-toggle-wrap{flex-shrink:0;}
+.cm-toggle{width:40px;height:22px;border-radius:11px;background:var(--gray-300);cursor:pointer;position:relative;transition:background .2s;border:none;flex-shrink:0;}
+.cm-toggle.on{background:var(--blue);}
+.cm-toggle::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:left .2s;}
+.cm-toggle.on::after{left:21px;}
+.cm-footer{padding:16px 24px;border-top:1px solid var(--gray-100);display:flex;gap:8px;justify-content:flex-end;}
+.cm-btn{padding:9px 20px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;font-family:var(--font-main);cursor:pointer;border:none;transition:background .15s;}
+.cm-btn-reject{background:var(--gray-100);color:var(--gray-700);}
+.cm-btn-reject:hover{background:var(--gray-200);}
+.cm-btn-save{background:var(--blue);color:#fff;}
+.cm-btn-save:hover{background:var(--blue-d);}
+/* --- TOAST --- */
+.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--gray-900);color:#fff;padding:10px 20px;border-radius:50px;font-size:13px;font-weight:600;z-index:600;opacity:0;transition:all .3s;pointer-events:none;white-space:nowrap;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+/* --- AFFILIATES --- */
+.affiliate-wrap{max-width:1320px;margin:0 auto 0;padding:0 24px 48px;}
+.affiliate-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--gray-500);margin-bottom:16px;}
+.affiliate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+.aff-card{background:var(--white);border:1px solid var(--gray-200);border-radius:var(--radius);padding:22px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--card-shadow);transition:box-shadow .2s;}
+.aff-card:hover{box-shadow:var(--card-shadow-hover);}
+.aff-icon{width:36px;height:36px;border-radius:9px;background:var(--blue-l);display:flex;align-items:center;justify-content:center;}
+.aff-card h3{font-size:15px;font-weight:800;color:var(--gray-900);}
+.aff-card p{font-size:13px;color:var(--gray-500);line-height:1.6;flex:1;}
+.aff-cta{display:inline-block;padding:9px 18px;background:var(--blue);color:#fff;border-radius:var(--radius-sm);font-size:13px;font-weight:700;text-decoration:none;transition:background .15s;align-self:flex-start;}
+.aff-cta:hover{background:var(--blue-d);}
+.aff-disclaimer{margin-top:16px;font-size:12px;color:var(--gray-400);line-height:1.5;}
+/* --- SEO CONTENT --- */
+.seo-content{max-width:960px;margin:40px auto;padding:0 24px 40px;}
+.seo-inner{border-left:4px solid var(--blue);padding-left:20px;}
+.seo-inner h2{font-size:22px;font-weight:800;color:var(--gray-900);margin-bottom:16px;}
+.seo-inner h3{font-size:17px;font-weight:700;color:var(--gray-900);margin:20px 0 10px;}
+.seo-inner p{font-size:14px;color:var(--gray-700);line-height:1.75;margin-bottom:10px;}
+/* --- FOOTER --- */
+.site-footer{background:var(--white);border-top:1px solid var(--gray-200);padding:0;}
+.footer-content{max-width:1320px;margin:0 auto;padding:48px 24px 24px;}
+.footer-main{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px;border-bottom:1px solid var(--gray-200);padding-bottom:32px;}
+.footer-col h3{font-size:16px;font-weight:800;color:var(--gray-900);margin-bottom:12px;}
+.footer-col h4{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gray-500);margin-bottom:10px;}
+.footer-col p{font-size:13px;color:var(--gray-500);line-height:1.6;}
+.footer-col ul{list-style:none;padding:0;}
+.footer-col ul li{margin-bottom:8px;}
+.footer-col ul li a{color:var(--gray-500);text-decoration:none;font-size:13px;transition:color var(--transition-fast);}
+.footer-col ul li a:hover{color:var(--blue);text-decoration:underline;}
+.footer-bottom{text-align:center;padding-top:16px;border-top:1px solid var(--gray-200);font-size:11px;color:var(--gray-400);}
+/* --- RESPONSIVENESS --- */
+@media(max-width:960px){
+  .page-wrap{grid-template-columns:1fr;}
+  .col-results{position:static;max-height:none;overflow:visible;}
+}
+@media(max-width:640px){
+  .metrics-grid{grid-template-columns:1fr;}
+  .affiliate-grid{grid-template-columns:1fr;}
+  .two-cols{grid-template-columns:1fr;}
+}
+@media(max-width:360px){:root{font-size:14px;}}
+
+.hub-retour{display:inline-flex;align-items:center;gap:7px;text-decoration:none;padding:5px 12px 5px 6px;border-radius:20px;border:1px solid var(--gray-200);background:var(--white);transition:all .2s;flex-shrink:0;}
+.hub-retour:hover{border-color:#1E3A5F;background:var(--gray-50);}
+.retour-logo{display:flex;align-items:center;flex-shrink:0;}
+.retour-text{font-size:12px;font-weight:600;color:var(--gray-700);letter-spacing:.1px;}
+[data-theme="dark"] .hub-retour{background:#1e2a3a;border-color:#3e4a5a;}
+[data-theme="dark"] .retour-text{color:var(--gray-500);}
+</style>
+</head>
+<body>
+<h1 class="visually-hidden">Convertisseur de mesures universel — longueur, masse, volume, température et plus</h1>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="ConvertisseurMesure — accueil">
+      <div class="logo-mark">CM</div>
+      <div class="logo-info">
+        <div class="logo-name">Convertisseur<span>Mesure</span></div>
+        <div class="logo-sub">Unités officielles BIPM &amp; NIST</div>
+      </div>
+    </a>
+    <div class="header-right">
+      <span class="badge badge-teal"><span class="ui-icon" data-icon="france.svg" aria-hidden="true"></span> France</span>
+      <span class="badge badge-green"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span> Données BIPM &amp; NIST 2026</span>
+      <a href="https://wecalc.fr/" class="hub-retour" rel="noopener noreferrer" aria-label="Retour à la plateforme wecalc.fr">
+        <span class="retour-logo" aria-hidden="true">
+          <img src="assets/icons/logo-fibo4.svg" width="22" height="22" alt="" aria-hidden="true">
+        </span>
+        <span class="retour-text">Retour</span>
+      </a>
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" aria-label="Basculer le thème">
+        <span id="themeIcon" class="ui-icon" data-icon="theme-dark.svg" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MAIN LAYOUT -->
+<div class="page-wrap">
+
+  <!-- COL FORM -->
+  <div class="col-form">
+
+    <!-- CARD PRINCIPAL -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="swap.svg" aria-hidden="true"></span></div>
+        <h2>Convertisseur de mesures</h2>
+      </div>
+      <div class="card-body">
+
+        <div class="form-section">
+          <div class="sec-label">Catégorie</div>
+          <div class="field">
+            <label class="field-label" for="category">Famille d'unités</label>
+            <select id="category" onchange="onCategoryChange()">
+              <option value="longueur">Longueur</option>
+              <option value="masse">Masse</option>
+              <option value="surface">Surface</option>
+              <option value="volume">Volume</option>
+              <option value="temperature">Température</option>
+              <option value="temps">Temps</option>
+              <option value="vitesse">Vitesse</option>
+              <option value="pression">Pression</option>
+              <option value="energie">Énergie</option>
+              <option value="puissance">Puissance</option>
+              <option value="angle">Angle</option>
+              <option value="donnees">Données (octets)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">Valeur à convertir</div>
+          <div class="field">
+            <label class="field-label" for="inputValue">Valeur</label>
+            <input type="number" id="inputValue" step="any" placeholder="Ex : 100" oninput="recalc()">
+            <div class="field-note" id="valueNote">Entrez un nombre (décimales acceptées).</div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">Unités</div>
+          <div class="two-cols">
+            <div class="field">
+              <label class="field-label" for="fromUnit">Unité source</label>
+              <select id="fromUnit" onchange="recalc()"></select>
+            </div>
+            <div class="field">
+              <label class="field-label" for="toUnit">Unité cible</label>
+              <select id="toUnit" onchange="recalc()"></select>
+            </div>
+          </div>
+          <button type="button" class="swap-btn" onclick="swapUnits()" aria-label="Inverser les unités source et cible">
+            Inverser les unités &harr;
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CARD OPTIONS D'AFFICHAGE -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="monitor.svg" aria-hidden="true"></span></div>
+        <h2>Options d'affichage</h2>
+      </div>
+      <div class="card-body">
+
+        <div class="opt-item" id="opt-display">
+          <div class="opt-toggle" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleOpt('display')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleOpt('display')}">
+            <div class="opt-toggle-left"><span class="opt-toggle-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></span><span>Précision &amp; notation</span></div>
+            <div class="switch" aria-hidden="true"></div>
+          </div>
+          <div class="opt-body" id="body-display">
+            <div class="field">
+              <label class="field-label" for="decimals">Décimales affichées</label>
+              <select id="decimals" onchange="recalc()">
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6" selected>6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="15">15 (max)</option>
+              </select>
+            </div>
+            <div class="field" style="margin-top:12px">
+              <label class="field-label">Mode d'arrondi</label>
+              <div class="radio-group">
+                <div class="radio-pill"><input type="radio" name="rounding" id="roundStd" value="standard" checked onchange="recalc()"><label for="roundStd">Standard</label></div>
+                <div class="radio-pill"><input type="radio" name="rounding" id="roundTrunc" value="truncate" onchange="recalc()"><label for="roundTrunc">Tronquer</label></div>
+                <div class="radio-pill"><input type="radio" name="rounding" id="roundSci" value="scientific" onchange="recalc()"><label for="roundSci">Scientifique</label></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="opt-item" id="opt-si" style="margin-top:10px">
+          <div class="opt-toggle" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleOpt('si')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleOpt('si')}">
+            <div class="opt-toggle-left"><span class="opt-toggle-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></span><span>Valeur SI intermédiaire</span></div>
+            <div class="switch" aria-hidden="true"></div>
+          </div>
+          <div class="opt-body" id="body-si">
+            <p class="field-note">Affiche la valeur convertie dans l'unité de base SI de la famille sélectionnée (m, kg, m², m³, K, s, m/s, Pa, J, W, rad, B).</p>
+          </div>
+        </div>
+
+        <div class="opt-item" id="opt-data" style="margin-top:10px;display:none">
+          <div class="opt-toggle" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleOpt('data')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleOpt('data')}">
+            <div class="opt-toggle-left"><span class="opt-toggle-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></span><span>Mode données (décimal/binaire)</span></div>
+            <div class="switch" aria-hidden="true"></div>
+          </div>
+          <div class="opt-body" id="body-data">
+            <label class="field-label" style="margin-bottom:8px">Base de calcul</label>
+            <div class="radio-group">
+              <div class="radio-pill"><input type="radio" name="dataMode" id="dataDecimal" value="decimal" checked onchange="onDataModeChange()"><label for="dataDecimal">Décimal (kB, MB, GB)</label></div>
+              <div class="radio-pill"><input type="radio" name="dataMode" id="dataBinary" value="binary" onchange="onDataModeChange()"><label for="dataBinary">Binaire IEC (KiB, MiB, GiB)</label></div>
+            </div>
+            <p class="field-note" style="margin-top:8px">Le mode binaire utilise les puissances de 2 (IEC 80000-13). Le mode décimal utilise les préfixes SI (kB = 10³ B).</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTION ROW -->
+    <div class="action-row">
+      <button type="button" class="btn btn-ghost" onclick="shareURLAction()">
+        <span class="ui-icon" data-icon="share.svg" aria-hidden="true"></span> Partager
+      </button>
+      <button type="button" class="btn btn-ghost" onclick="exportPDF(this)">
+        <span class="ui-icon" data-icon="pdf.svg" aria-hidden="true"></span> Exporter PDF
+      </button>
+    </div>
+    <div class="share-field" id="shareField">
+      <input type="text" id="shareUrl" readonly placeholder="Lien de partage...">
+      <button type="button" onclick="copyURL()">Copier</button>
+    </div>
+
+  </div><!-- /col-form -->
+
+  <!-- COL RESULTS -->
+  <div class="col-results">
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span></div>
+        <h2>Résultat de la conversion</h2>
+      </div>
+      <div class="card-body">
+
+        <div id="emptyState" class="empty-state">
+          <div class="empty-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></div>
+          <p>Saisissez une valeur et choisissez les unités pour obtenir le résultat.</p>
+          <p>12 familles de mesure disponibles — facteurs officiels BIPM &amp; NIST 2026.</p>
+        </div>
+
+        <div id="resultsContent" style="display:none">
+          <div class="alerts-zone" id="alertsZone"></div>
+
+          <div class="result-main" id="resultMain">
+            <div class="result-label" id="resultLabel">Résultat</div>
+            <div class="result-value" id="resultValue">—</div>
+            <div class="result-unit" id="resultUnitDisplay">—</div>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric teal">
+              <div class="metric-label">Valeur source</div>
+              <div class="metric-value" id="metricFrom">—</div>
+              <div class="metric-sub" id="metricFromUnit">—</div>
+            </div>
+            <div class="metric green">
+              <div class="metric-label">Facteur appliqué</div>
+              <div class="metric-value" id="metricFactor">—</div>
+              <div class="metric-sub">×</div>
+            </div>
+          </div>
+
+          <div class="breakdown" id="breakdownZone"></div>
+
+          <div class="alerts-zone" style="margin-top:10px" id="alertsZoneBottom"></div>
+
+          <p class="results-foot">Résultat informatif — ne remplace pas une norme sectorielle ou un étalonnage officiel.</p>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- /col-results -->
+
+</div><!-- /page-wrap -->
+
+<!-- AFFILIATES -->
+<div class="affiliate-wrap">
+  <div class="affiliate-title">Outils recommandés</div>
+  <div class="affiliate-grid">
+    <div class="aff-card">
+      <div class="aff-icon"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span></div>
+      <h3>Amazon — Outils de mesure</h3>
+      <p>Télémètres laser, mètres ruban, balances de précision : complémentaires après une conversion de longueur, surface ou masse.</p>
+      <a href="https://www.amazon.fr/s?k=outils+de+mesure" target="_blank" rel="noopener noreferrer" class="aff-cta">Voir la sélection &rarr;</a>
+    </div>
+    <div class="aff-card">
+      <div class="aff-icon"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span></div>
+      <h3>ManoMano — Bricolage</h3>
+      <p>Matériaux, outillage et fournitures : idéal pour concrétiser vos conversions de mètres, m², litres et pressions avant achat.</p>
+      <a href="https://www.manomano.fr/" target="_blank" rel="noopener noreferrer" class="aff-cta">Explorer &rarr;</a>
+    </div>
+    <div class="aff-card">
+      <div class="aff-icon"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span></div>
+      <h3>Conrad — Électronique &amp; labo</h3>
+      <p>Instruments de mesure professionnels : multimètres, thermomètres, capteurs. Cohérent pour les conversions techniques de pression, énergie et température.</p>
+      <a href="https://www.conrad.fr/" target="_blank" rel="noopener noreferrer" class="aff-cta">Découvrir &rarr;</a>
+    </div>
+    <div class="aff-card">
+      <div class="aff-icon"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span></div>
+      <h3>Decathlon — Sport &amp; outdoor</h3>
+      <p>Montres GPS, altimètres, boussoles : utile après des conversions de distance, vitesse, nœuds ou température pour les sports et la navigation.</p>
+      <a href="https://www.decathlon.fr/browse/c0-tous-les-sports/_/N-5ekj" target="_blank" rel="noopener noreferrer" class="aff-cta">Explorer &rarr;</a>
+    </div>
+  </div>
+  <p class="aff-disclaimer">Recommandations indépendantes. Une commission peut être perçue en cas d'achat &mdash; sans impact sur vos calculs ni sur l'objectivité des résultats.</p>
+</div>
+
+<!-- SEO CONTENT -->
+<div class="seo-content">
+  <div class="seo-inner">
+    <h2>Convertisseur de mesures universel : convertir rapidement et correctement</h2>
+    <h3>Un outil unique pour les unités du quotidien et du travail</h3>
+    <p>Ce convertisseur de mesures permet de passer d'une unité à une autre dans les principales familles physiques : longueur, masse, volume, surface, température, temps, vitesse, pression, énergie, puissance, angle et données numériques. Il est conçu pour les usages concrets du quotidien, des études, de l'industrie, du commerce international ou de la logistique. Vous pouvez par exemple convertir des mètres en pieds, des kilogrammes en livres, des litres en gallons, des hectares en acres, des degrés Celsius en Fahrenheit, ou encore des kilooctets décimaux en kibioctets binaires.</p>
+    <h3>Données officielles et conventions de conversion</h3>
+    <p>Les facteurs et relations utilisés ici reposent sur des sources officielles de référence. Pour les unités SI et les unités admises avec le SI, la base normative est la brochure du BIPM, édition en vigueur 2025 de la 9e édition. Pour les équivalences opérationnelles les plus courantes, le site s'appuie aussi sur les tableaux du NIST Handbook 44, édition 2026, ainsi que sur le NIST Guide to the SI. Cela garantit une conversion cohérente pour les unités métriques, anglo-saxonnes et techniques les plus fréquentes. Les cas particuliers sont aussi respectés : la température ne se convertit pas par simple facteur, car elle implique un décalage, et les unités de données distinguent clairement les préfixes décimaux (kB, MB, GB) des préfixes binaires IEC (KiB, MiB, GiB).</p>
+    <p>Ce convertisseur de mesures n'inclut pas les catégories variables comme les monnaies ou les tarifs. Il se concentre uniquement sur les grandeurs à définition fixe. C'est le bon choix si vous cherchez un convertisseur de mesures fiable, transparent et directement exploitable sans ambiguïté. Les données affichées correspondent aux normes BIPM et NIST en vigueur au 19 mars 2026.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-main">
+      <div class="footer-col">
+        <h3>ConvertisseurMesure</h3>
+        <p>Outil gratuit de conversion d'unités de mesure. Facteurs officiels BIPM &amp; NIST 2026 — longueur, masse, volume, surface, température, temps, vitesse, pression, énergie, puissance, angle et données.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Ressources officielles</h4>
+        <ul>
+          <li><a href="https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-FR.pdf" target="_blank" rel="noopener noreferrer">BIPM — Brochure SI, 9e édition</a></li>
+          <li><a href="https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors" target="_blank" rel="noopener noreferrer">NIST — Guide to the SI, Appendix B</a></li>
+          <li><a href="https://www.nist.gov/document/2026-nist-handbook-44-appendix-c" target="_blank" rel="noopener noreferrer">NIST Handbook 44 Appendix C (2026)</a></li>
+          <li><a href="https://physics.nist.gov/cuu/Units/binary.html" target="_blank" rel="noopener noreferrer">NIST — Préfixes binaires IEC</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Politique &amp; Légal</h4>
+        <ul>
+          <li><a href="/confidentialite.html#confidentialite">Confidentialité &amp; RGPD</a></li>
+          <li><a href="/confidentialite.html#mentions">Mentions légales</a></li>
+          <li><a href="/confidentialite.html#conditions">Conditions d'utilisation</a></li>
+          <li><a href="/confidentialite.html#contact">Contact</a></li>
+          <li><a href="#" onclick="openCookieSettingsModal();return false;">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Nos outils</h4>
+        <ul>
+          <li><a href="https://wecalc.fr" rel="noopener noreferrer"><strong>← Tous les calculateurs</strong></a></li>
+          <li><a href="https://equations.wecalc.fr" rel="noopener noreferrer">Équations</a></li>
+          <li><a href="https://bac.wecalc.fr" rel="noopener noreferrer">Note Bac</a></li>
+          <li><a href="https://imc.wecalc.fr" rel="noopener noreferrer">IMC</a></li>
+          <li><a href="https://marge.wecalc.fr" rel="noopener noreferrer">Marge</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>À propos</h4>
+        <p><small>Outil informatif &mdash; ne constitue pas une norme sectorielle, un étalonnage ni un certificat de mesure.<br>
+        Données vérifiées au 19/03/2026.<br>
+        Erreur détectée ? <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a><br><br>
+        &copy; 2026 ConvertisseurMesure &mdash; Tous droits réservés</small></p>
+      </div>
+      </div>
+    <div class="footer-bottom">
+      <p>ConvertisseurMesure | Convertisseur universel d'unités de mesure — facteurs officiels BIPM &amp; NIST 2026</p>
+    </div>
+  </div>
+</footer>
+
+<!-- COOKIE SETTINGS MODAL -->
+<div class="cookie-modal-overlay" id="cookieSettingsModal" onclick="closeCookieModalOverlay(event)" role="dialog" aria-modal="true" aria-labelledby="cmTitle">
+  <div class="cookie-modal">
+    <div class="cm-head">
+      <h3 id="cmTitle">Paramètres des cookies</h3>
+      <button class="cm-close" onclick="closeCookieSettingsModal()" aria-label="Fermer">&times;</button>
+    </div>
+    <div class="cm-body">
+      <div class="cm-row">
+        <div class="cm-row-info">
+          <div class="cm-row-title">Cookies essentiels</div>
+          <div class="cm-row-desc">Indispensables au fonctionnement : mémorisation du thème, sauvegarde des préférences de conversion et consentement. Aucun tiers impliqué.</div>
+        </div>
+        <div class="cm-toggle-wrap">
+          <button class="cm-toggle on" disabled aria-label="Toujours actif" title="Toujours actif"></button>
+        </div>
+      </div>
+    </div>
+    <div class="cm-footer">
+      <button class="cm-btn cm-btn-reject" onclick="rejectAllFromModal()">Tout refuser</button>
+      <button class="cm-btn cm-btn-save" onclick="saveFromModal()">Enregistrer</button>
+    </div>
+  </div>
+</div>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookieBanner" role="alertdialog" aria-labelledby="cookieBannerTitle">
+  <p id="cookieBannerTitle"><strong>Ce site utilise des cookies essentiels</strong> pour mémoriser vos préférences de thème et de conversion. Aucun cookie tiers de tracking. <a href="/confidentialite.html#confidentialite" target="_blank" rel="noopener noreferrer">En savoir plus</a></p>
+  <div class="cookie-btns">
+    <button class="cookie-btn-reject" id="cookieReject">Refuser</button>
+    <button class="cookie-btn-settings" id="cookieSettings">Paramètres</button>
+    <button class="cookie-btn-accept" id="cookieAccept">Accepter</button>
+  </div>
+</div>
+
+<!-- FLOATING BUTTON -->
+<button type="button" class="float-btn" onclick="openModal()" aria-label="Afficher les sources et facteurs">
+  <span class="ui-icon" data-icon="sources.svg" aria-hidden="true"></span> Sources &amp; facteurs
+</button>
+
+<!-- TOAST -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- SOURCES MODAL -->
+<div class="modal-overlay" id="sourcesModal" onclick="closeModalOverlay(event)" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h3 id="modalTitle">Sources &amp; facteurs de conversion</h3>
+      <button class="modal-close" onclick="closeModal()" aria-label="Fermer">&times;</button>
+    </div>
+    <div class="modal-tabs">
+      <button class="modal-tab active" onclick="switchModalTab('sources',this)">Tableau des facteurs</button>
+      <button class="modal-tab" onclick="switchModalTab('links',this)">Références officielles</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-pane active" id="pane-sources">
+        <p style="font-size:12px;color:var(--gray-500);margin-bottom:16px;line-height:1.5;">Facteurs et relations normatives utilisés dans les calculs — sources BIPM &amp; NIST.</p>
+        <div style="overflow-x:auto">
+          <table class="sources-table">
+            <thead><tr><th>Unité</th><th>Facteur / Relation</th><th>Famille</th><th>Référence</th><th>Date</th></tr></thead>
+            <tbody id="sourcesBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-pane" id="pane-links">
+        <div id="linksZone"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+/* =============================================================
+   PORTAL COMPATIBILITY
+============================================================= */
+var SITE_META = Object.freeze({
+  id:       'calc-convertisseurmesure',
+  name:     'ConvertisseurMesure',
+  domain:   'mesures.wecalc.fr',
+  category: 'outils',
+  accent:   '#0F766E',
+  lang:     'fr'
+});
+
+/* =============================================================
+   CONSTANTS — verbatim from DATA_RESEARCH
+============================================================= */
+var CFG = Object.freeze({
+  // Core offsets / exact thermodynamic relations
+  CELSIUS_TO_KELVIN_OFFSET: 273.15,
+  FAHRENHEIT_OFFSET: 32,
+  FAHRENHEIT_SCALE: 1.8,
+  RANKINE_OFFSET: 459.67,
+  ABSOLUTE_ZERO_K: 0,
+  // Length → meter
+  MM_TO_M: 0.001,
+  CM_TO_M: 0.01,
+  KM_TO_M: 1000,
+  IN_TO_M: 0.0254,
+  FT_TO_M: 0.3048,
+  YD_TO_M: 0.9144,
+  MI_TO_M: 1609.344,
+  NMI_TO_M: 1852,
+  // Mass → kilogram
+  G_TO_KG: 0.001,
+  MG_TO_KG: 0.000001,
+  T_TO_KG: 1000,
+  LB_TO_KG: 0.45359237,
+  OZ_TO_KG: 0.028349523125,
+  // Area → square meter
+  CM2_TO_M2: 0.0001,
+  FT2_TO_M2: 0.09290304,
+  ARE_TO_M2: 100,
+  HA_TO_M2: 10000,
+  ACRE_TO_M2: 4046.8564224,
+  // Volume → cubic meter
+  ML_TO_M3: 0.000001,
+  L_TO_M3: 0.001,
+  IN3_TO_M3: 0.000016387064,
+  FT3_TO_M3: 0.028316846592,
+  US_GAL_TO_M3: 0.003785411784,
+  IMP_GAL_TO_M3: 0.00454609,
+  // Time → second
+  MIN_TO_S: 60,
+  HOUR_TO_S: 3600,
+  DAY_TO_S: 86400,
+  // Speed → meter per second
+  KMH_TO_MS: 0.2777777777777778,
+  MPH_TO_MS: 0.44704,
+  KNOT_TO_MS: 0.5144444444444445,
+  // Pressure → pascal
+  KPA_TO_PA: 1000,
+  MPA_TO_PA: 1000000,
+  BAR_TO_PA: 100000,
+  PSI_TO_PA: 6894.757,
+  MMHG_TO_PA: 133.3224,
+  // Energy → joule
+  KJ_TO_J: 1000,
+  WH_TO_J: 3600,
+  KWH_TO_J: 3600000,
+  // Power → watt
+  KW_TO_W: 1000,
+  HP_MECH_TO_W: 745.6998715822702,
+  // Angle → radian
+  DEG_TO_RAD: 0.017453292519943295,
+  ARCMIN_TO_RAD: 0.0002908882086657216,
+  ARCSEC_TO_RAD: 0.00000484813681109536,
+  // Data → byte
+  BIT_TO_B: 0.125,
+  KB_TO_B: 1000,
+  MB_TO_B: 1000000,
+  GB_TO_B: 1000000000,
+  KIB_TO_B: 1024,
+  MIB_TO_B: 1048576,
+  GIB_TO_B: 1073741824
+});
+
+/* =============================================================
+   UNIT DEFINITIONS
+   Each unit: { label, toSI: factor or function, fromSI: factor or function, symbol, siUnit }
+   For linear: toSI and fromSI are numbers (multiplier to/from SI base)
+   For temperature: toSI and fromSI are functions
+============================================================= */
+var UNIT_DEFS = {
+  longueur: {
+    siUnit: 'm',
+    siLabel: 'mètre (m)',
+    units: [
+      { key: 'm',   label: 'mètre (m)',             toSI: 1,                  fromSI: 1 },
+      { key: 'km',  label: 'kilomètre (km)',          toSI: CFG.KM_TO_M,        fromSI: 1/CFG.KM_TO_M },
+      { key: 'cm',  label: 'centimètre (cm)',          toSI: CFG.CM_TO_M,        fromSI: 1/CFG.CM_TO_M },
+      { key: 'mm',  label: 'millimètre (mm)',          toSI: CFG.MM_TO_M,        fromSI: 1/CFG.MM_TO_M },
+      { key: 'in',  label: 'pouce (in)',               toSI: CFG.IN_TO_M,        fromSI: 1/CFG.IN_TO_M },
+      { key: 'ft',  label: 'pied (ft)',                toSI: CFG.FT_TO_M,        fromSI: 1/CFG.FT_TO_M },
+      { key: 'yd',  label: 'yard (yd)',                toSI: CFG.YD_TO_M,        fromSI: 1/CFG.YD_TO_M },
+      { key: 'mi',  label: 'mile (mi)',                toSI: CFG.MI_TO_M,        fromSI: 1/CFG.MI_TO_M },
+      { key: 'nmi', label: 'mille marin (NM)',         toSI: CFG.NMI_TO_M,       fromSI: 1/CFG.NMI_TO_M }
+    ]
+  },
+  masse: {
+    siUnit: 'kg',
+    siLabel: 'kilogramme (kg)',
+    units: [
+      { key: 'kg',  label: 'kilogramme (kg)',          toSI: 1,                  fromSI: 1 },
+      { key: 'g',   label: 'gramme (g)',               toSI: CFG.G_TO_KG,        fromSI: 1/CFG.G_TO_KG },
+      { key: 'mg',  label: 'milligramme (mg)',          toSI: CFG.MG_TO_KG,       fromSI: 1/CFG.MG_TO_KG },
+      { key: 't',   label: 'tonne (t)',                toSI: CFG.T_TO_KG,        fromSI: 1/CFG.T_TO_KG },
+      { key: 'lb',  label: 'livre avoirdupois (lb)',    toSI: CFG.LB_TO_KG,       fromSI: 1/CFG.LB_TO_KG },
+      { key: 'oz',  label: 'once avoirdupois (oz)',     toSI: CFG.OZ_TO_KG,       fromSI: 1/CFG.OZ_TO_KG }
+    ]
+  },
+  surface: {
+    siUnit: 'm²',
+    siLabel: 'mètre carré (m²)',
+    units: [
+      { key: 'm2',    label: 'mètre carré (m²)',       toSI: 1,                  fromSI: 1 },
+      { key: 'km2',   label: 'kilomètre carré (km²)',  toSI: 1e6,                fromSI: 1e-6 },
+      { key: 'cm2',   label: 'centimètre carré (cm²)', toSI: CFG.CM2_TO_M2,      fromSI: 1/CFG.CM2_TO_M2 },
+      { key: 'mm2',   label: 'millimètre carré (mm²)', toSI: 0.000001,           fromSI: 1000000 },
+      { key: 'ha',    label: 'hectare (ha)',            toSI: CFG.HA_TO_M2,       fromSI: 1/CFG.HA_TO_M2 },
+      { key: 'are',   label: 'are (a)',                 toSI: CFG.ARE_TO_M2,      fromSI: 1/CFG.ARE_TO_M2 },
+      { key: 'ft2',   label: 'pied carré (ft²)',        toSI: CFG.FT2_TO_M2,      fromSI: 1/CFG.FT2_TO_M2 },
+      { key: 'acre',  label: 'acre',                    toSI: CFG.ACRE_TO_M2,     fromSI: 1/CFG.ACRE_TO_M2 }
+    ]
+  },
+  volume: {
+    siUnit: 'm³',
+    siLabel: 'mètre cube (m³)',
+    units: [
+      { key: 'm3',      label: 'mètre cube (m³)',       toSI: 1,                    fromSI: 1 },
+      { key: 'l',       label: 'litre (L)',              toSI: CFG.L_TO_M3,          fromSI: 1/CFG.L_TO_M3 },
+      { key: 'ml',      label: 'millilitre (mL)',        toSI: CFG.ML_TO_M3,         fromSI: 1/CFG.ML_TO_M3 },
+      { key: 'cl',      label: 'centilitre (cL)',        toSI: 0.00001,              fromSI: 100000 },
+      { key: 'ft3',     label: 'pied cube (ft³)',        toSI: CFG.FT3_TO_M3,        fromSI: 1/CFG.FT3_TO_M3 },
+      { key: 'in3',     label: 'pouce cube (in³)',       toSI: CFG.IN3_TO_M3,        fromSI: 1/CFG.IN3_TO_M3 },
+      { key: 'usgal',   label: 'gallon US (gal)',        toSI: CFG.US_GAL_TO_M3,     fromSI: 1/CFG.US_GAL_TO_M3 },
+      { key: 'impgal',  label: 'gallon impérial (gal)', toSI: CFG.IMP_GAL_TO_M3,    fromSI: 1/CFG.IMP_GAL_TO_M3 }
+    ]
+  },
+  temperature: {
+    siUnit: 'K',
+    siLabel: 'kelvin (K)',
+    isAffine: true,
+    units: [
+      { key: 'K',  label: 'kelvin (K)',          toK: function(v){ return v; },                                            fromK: function(v){ return v; } },
+      { key: 'C',  label: 'degré Celsius (°C)',  toK: function(v){ return v + CFG.CELSIUS_TO_KELVIN_OFFSET; },             fromK: function(v){ return v - CFG.CELSIUS_TO_KELVIN_OFFSET; } },
+      { key: 'F',  label: 'degré Fahrenheit (°F)',toK: function(v){ return (v + CFG.RANKINE_OFFSET) / CFG.FAHRENHEIT_SCALE; }, fromK: function(v){ return (v * CFG.FAHRENHEIT_SCALE) - CFG.RANKINE_OFFSET; } }
+    ]
+  },
+  temps: {
+    siUnit: 's',
+    siLabel: 'seconde (s)',
+    units: [
+      { key: 's',   label: 'seconde (s)',          toSI: 1,                  fromSI: 1 },
+      { key: 'ms',  label: 'milliseconde (ms)',     toSI: 0.001,              fromSI: 1000 },
+      { key: 'min', label: 'minute (min)',           toSI: CFG.MIN_TO_S,       fromSI: 1/CFG.MIN_TO_S },
+      { key: 'h',   label: 'heure (h)',             toSI: CFG.HOUR_TO_S,      fromSI: 1/CFG.HOUR_TO_S },
+      { key: 'd',   label: 'jour (j)',              toSI: CFG.DAY_TO_S,       fromSI: 1/CFG.DAY_TO_S }
+    ]
+  },
+  vitesse: {
+    siUnit: 'm/s',
+    siLabel: 'mètre par seconde (m/s)',
+    units: [
+      { key: 'ms',    label: 'm/s',                  toSI: 1,                  fromSI: 1 },
+      { key: 'kmh',   label: 'km/h',                  toSI: CFG.KMH_TO_MS,      fromSI: 1/CFG.KMH_TO_MS },
+      { key: 'mph',   label: 'mph',                   toSI: CFG.MPH_TO_MS,      fromSI: 1/CFG.MPH_TO_MS },
+      { key: 'knot',  label: 'nœud (kn)',             toSI: CFG.KNOT_TO_MS,     fromSI: 1/CFG.KNOT_TO_MS }
+    ]
+  },
+  pression: {
+    siUnit: 'Pa',
+    siLabel: 'pascal (Pa)',
+    units: [
+      { key: 'Pa',    label: 'pascal (Pa)',            toSI: 1,                  fromSI: 1 },
+      { key: 'kPa',   label: 'kilopascal (kPa)',       toSI: CFG.KPA_TO_PA,      fromSI: 1/CFG.KPA_TO_PA },
+      { key: 'MPa',   label: 'mégapascal (MPa)',       toSI: CFG.MPA_TO_PA,      fromSI: 1/CFG.MPA_TO_PA },
+      { key: 'bar',   label: 'bar',                    toSI: CFG.BAR_TO_PA,      fromSI: 1/CFG.BAR_TO_PA },
+      { key: 'mbar',  label: 'millibar (mbar)',         toSI: 100,                fromSI: 0.01 },
+      { key: 'psi',   label: 'psi',                    toSI: CFG.PSI_TO_PA,      fromSI: 1/CFG.PSI_TO_PA },
+      { key: 'mmhg',  label: 'mmHg (0 °C)',            toSI: CFG.MMHG_TO_PA,     fromSI: 1/CFG.MMHG_TO_PA },
+      { key: 'atm',   label: 'atmosphère (atm)',        toSI: 101325,             fromSI: 1/101325 }
+    ]
+  },
+  energie: {
+    siUnit: 'J',
+    siLabel: 'joule (J)',
+    units: [
+      { key: 'J',   label: 'joule (J)',               toSI: 1,                  fromSI: 1 },
+      { key: 'kJ',  label: 'kilojoule (kJ)',           toSI: CFG.KJ_TO_J,        fromSI: 1/CFG.KJ_TO_J },
+      { key: 'Wh',  label: 'watt-heure (Wh)',          toSI: CFG.WH_TO_J,        fromSI: 1/CFG.WH_TO_J },
+      { key: 'kWh', label: 'kilowatt-heure (kWh)',     toSI: CFG.KWH_TO_J,       fromSI: 1/CFG.KWH_TO_J }
+    ]
+  },
+  puissance: {
+    siUnit: 'W',
+    siLabel: 'watt (W)',
+    units: [
+      { key: 'W',   label: 'watt (W)',                 toSI: 1,                  fromSI: 1 },
+      { key: 'kW',  label: 'kilowatt (kW)',             toSI: CFG.KW_TO_W,        fromSI: 1/CFG.KW_TO_W },
+      { key: 'MW',  label: 'mégawatt (MW)',             toSI: 1000000,            fromSI: 0.000001 },
+      { key: 'hp',  label: 'cheval-vapeur mécanique (hp)', toSI: CFG.HP_MECH_TO_W, fromSI: 1/CFG.HP_MECH_TO_W }
+    ]
+  },
+  angle: {
+    siUnit: 'rad',
+    siLabel: 'radian (rad)',
+    units: [
+      { key: 'rad',    label: 'radian (rad)',           toSI: 1,                  fromSI: 1 },
+      { key: 'deg',    label: 'degré (°)',              toSI: CFG.DEG_TO_RAD,     fromSI: 1/CFG.DEG_TO_RAD },
+      { key: 'arcmin', label: 'minute d\'arc (\')',     toSI: CFG.ARCMIN_TO_RAD,  fromSI: 1/CFG.ARCMIN_TO_RAD },
+      { key: 'arcsec', label: 'seconde d\'arc (")',     toSI: CFG.ARCSEC_TO_RAD,  fromSI: 1/CFG.ARCSEC_TO_RAD },
+      { key: 'tr',     label: 'tour complet (tr)',       toSI: 2*Math.PI,          fromSI: 1/(2*Math.PI) },
+      { key: 'grad',   label: 'grade (gon)',             toSI: Math.PI/200,        fromSI: 200/Math.PI }
+    ]
+  },
+  donnees: {
+    siUnit: 'B',
+    siLabel: 'octet (B)',
+    units: [] // dynamically populated based on dataMode
+  }
+};
+
+// Data units by mode
+var DATA_UNITS_DECIMAL = [
+  { key: 'b',   label: 'bit (b)',           toSI: CFG.BIT_TO_B,       fromSI: 1/CFG.BIT_TO_B },
+  { key: 'B',   label: 'octet (B)',          toSI: 1,                  fromSI: 1 },
+  { key: 'kB',  label: 'kilooctet (kB)',     toSI: CFG.KB_TO_B,        fromSI: 1/CFG.KB_TO_B },
+  { key: 'MB',  label: 'mégaoctet (MB)',     toSI: CFG.MB_TO_B,        fromSI: 1/CFG.MB_TO_B },
+  { key: 'GB',  label: 'gigaoctet (GB)',     toSI: CFG.GB_TO_B,        fromSI: 1/CFG.GB_TO_B },
+  { key: 'TB',  label: 'téraoctet (TB)',     toSI: 1e12,               fromSI: 1e-12 }
+];
+
+var DATA_UNITS_BINARY = [
+  { key: 'b',   label: 'bit (b)',           toSI: CFG.BIT_TO_B,       fromSI: 1/CFG.BIT_TO_B },
+  { key: 'B',   label: 'octet (B)',          toSI: 1,                  fromSI: 1 },
+  { key: 'KiB', label: 'kibioctet (KiB)',    toSI: CFG.KIB_TO_B,       fromSI: 1/CFG.KIB_TO_B },
+  { key: 'MiB', label: 'mébioctet (MiB)',    toSI: CFG.MIB_TO_B,       fromSI: 1/CFG.MIB_TO_B },
+  { key: 'GiB', label: 'gibioctet (GiB)',    toSI: CFG.GIB_TO_B,       fromSI: 1/CFG.GIB_TO_B },
+  { key: 'TiB', label: 'tébioctet (TiB)',    toSI: 1099511627776,      fromSI: 1/1099511627776 }
+];
+
+/* =============================================================
+   SOURCES
+============================================================= */
+var SOURCES = [
+  { n:"Minute", t:"1 min = 60 s", a:"Temps", s:"BIPM SI Brochure, 9th ed., Table of accepted non-SI units", u:"https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-FR.pdf", d:"08/2025" },
+  { n:"Litre", t:"1 L = 10^-3 m³", a:"Volume", s:"BIPM SI Brochure, 9th ed.; 12th CGPM (1964)", u:"https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf", d:"08/2025" },
+  { n:"Tonne", t:"1 t = 10^3 kg", a:"Masse", s:"BIPM SI Brochure, 9th ed., accepted non-SI units", u:"https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf", d:"08/2025" },
+  { n:"Hectare", t:"1 ha = 10^4 m²", a:"Surface", s:"BIPM SI Brochure, 9th ed., accepted non-SI units", u:"https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf", d:"08/2025" },
+  { n:"Pouce international", t:"1 in = 2.54 cm", a:"Longueur", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"Pied international", t:"1 ft = 0.3048 m", a:"Longueur", s:"Federal Register 1959; NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"Mile international", t:"1 mi = 1609.344 m", a:"Longueur / vitesse", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"Livre avoirdupois", t:"1 lb = 0.45359237 kg", a:"Masse", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"Once avoirdupois", t:"1 oz = 28.349523125 g", a:"Masse", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"Gallon US liquide", t:"1 gal = 231 in³ = 3.785411784 L", a:"Volume", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"psi", t:"1 psi = 6894.757 Pa", a:"Pression", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"mmHg (0 °C)", t:"1 mmHg = 133.3224 Pa", a:"Pression", s:"NIST HB 44 Appendix C, 2026", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c", d:"06/01/2026" },
+  { n:"Température Celsius / Kelvin", t:"T/K = t/°C + 273.15", a:"Température", s:"NIST SP 811 Appendix B.8; BIPM SI concise summary", u:"https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8", d:"01/02/2016" },
+  { n:"Préfixes SI décimaux", t:"k = 10³, M = 10⁶, G = 10⁹", a:"Toutes familles décimales", s:"BIPM SI prefixes", u:"https://www.bipm.org/fr/measurement-units/si-prefixes", d:"2026" },
+  { n:"Préfixes binaires IEC", t:"Ki = 2^10, Mi = 2^20, Gi = 2^30", a:"Données", s:"NIST — Definitions of the SI units: The binary prefixes", u:"https://physics.nist.gov/cuu/Units/binary.html", d:"2026" }
+];
+
+var SOURCE_LINKS = [
+  { t:"BIPM — Le Système international d'unités (SI), 9e édition", d:"Référence maîtresse pour les unités SI, les unités admises avec le SI et les relations exactes de base.", u:"https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-FR.pdf" },
+  { t:"NIST — Guide to the SI, Appendix B: Conversion Factors", d:"Table officielle de facteurs de conversion pour de nombreuses unités hors SI et usuelles.", u:"https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors" },
+  { t:"NIST — Handbook 44 Appendix C (2026), General Tables of Units of Measurement", d:"Tableaux opérationnels de conversion pour longueur, surface, volume, masse, pression et température.", u:"https://www.nist.gov/document/2026-nist-handbook-44-appendix-c" },
+  { t:"BIPM — Préfixes du SI", d:"Liste officielle des préfixes décimaux du SI, utile pour les unités métriques et les données en base 10.", u:"https://www.bipm.org/fr/measurement-units/si-prefixes" },
+  { t:"NIST — Definitions of the SI units: The binary prefixes", d:"Référence officielle pour KiB, MiB, GiB et les autres préfixes binaires IEC.", u:"https://physics.nist.gov/cuu/Units/binary.html" }
+];
+
+/* =============================================================
+   STATE
+============================================================= */
+var state = {
+  category: 'longueur',
+  value: null,
+  fromUnit: 'm',
+  toUnit: 'cm',
+  decimals: 6,
+  rounding: 'standard',
+  showSI: false,
+  dataMode: 'decimal',
+  opts: { display: false, si: false, data: false }
+};
+var lastResult = null;
+var STORAGE_KEY = 'calc_convertisseur-mesure_state_v1';
+var COOKIE_KEY  = 'calc_convertisseur-mesure_cookies_v1';
+var cookies = { essential: true };
+
+/* =============================================================
+   ICONS
+============================================================= */
+var ICONS = {
+  'warning.svg':    'assets/icons/warning.svg',
+  'info.svg':       'assets/icons/info.svg',
+  'swap.svg':       'assets/icons/swap.svg',
+  'monitor.svg':    'assets/icons/monitor.svg',
+  'error.svg':      'assets/icons/error.svg',
+  'success.svg':    'assets/icons/success.svg',
+  'share.svg':      'assets/icons/share.svg',
+  'pdf.svg':        'assets/icons/pdf.svg',
+  'sources.svg':    'assets/icons/sources.svg',
+  'theme-dark.svg': 'assets/icons/theme-dark.svg',
+  'theme-light.svg':'assets/icons/theme-light.svg',
+  'france.svg':     'assets/icons/france.svg'
+};
+function hydrateIcons() {
+  document.querySelectorAll('[data-icon]').forEach(function(el) {
+    var name = el.getAttribute('data-icon');
+    var path = ICONS[name];
+    if (!path) return;
+    el.innerHTML = '<img src="' + path + '" alt="" width="20" height="20" aria-hidden="true">';
+  });
+}
+
+/* =============================================================
+   UNIT HELPERS
+============================================================= */
+function getCategoryDef(cat) {
+  var def = UNIT_DEFS[cat];
+  if (cat === 'donnees') {
+    def = Object.assign({}, def);
+    def.units = state.dataMode === 'binary' ? DATA_UNITS_BINARY : DATA_UNITS_DECIMAL;
+  }
+  return def;
+}
+
+function getUnitDef(cat, key) {
+  var def = getCategoryDef(cat);
+  for (var i = 0; i < def.units.length; i++) {
+    if (def.units[i].key === key) return def.units[i];
+  }
+  return null;
+}
+
+function populateUnitSelects(cat) {
+  var def = getCategoryDef(cat);
+  var fromSel = document.getElementById('fromUnit');
+  var toSel   = document.getElementById('toUnit');
+  var fromVal = state.fromUnit;
+  var toVal   = state.toUnit;
+  var fromOpts = '', toOpts = '';
+  def.units.forEach(function(u) {
+    fromOpts += '<option value="' + u.key + '">' + u.label + '</option>';
+    toOpts   += '<option value="' + u.key + '">' + u.label + '</option>';
+  });
+  fromSel.innerHTML = fromOpts;
+  toSel.innerHTML   = toOpts;
+  // Restore or set defaults
+  var fromExists = def.units.some(function(u){ return u.key === fromVal; });
+  var toExists   = def.units.some(function(u){ return u.key === toVal; });
+  fromSel.value = fromExists ? fromVal : def.units[0].key;
+  toSel.value   = toExists   ? toVal   : (def.units[1] ? def.units[1].key : def.units[0].key);
+  state.fromUnit = fromSel.value;
+  state.toUnit   = toSel.value;
+}
+
+/* =============================================================
+   CALCULATION CORE
+============================================================= */
+function calculate() {
+  var cat = state.category;
+  var val = parseFloat(document.getElementById('inputValue').value);
+  if (!isFinite(val) || isNaN(val)) return null;
+
+  var def = getCategoryDef(cat);
+  var fromDef = getUnitDef(cat, state.fromUnit);
+  var toDef   = getUnitDef(cat, state.toUnit);
+  if (!fromDef || !toDef) return null;
+
+  var result, siValue, factor;
+
+  if (def.isAffine) {
+    // Temperature: convert via Kelvin
+    var kelvin = fromDef.toK(val);
+    if (kelvin < 0) {
+      return { error: 'temp_impossible', kelvin: kelvin };
+    }
+    result = toDef.fromK(kelvin);
+    siValue = kelvin;
+    factor = null; // no single factor for affine
+  } else {
+    // Linear conversion via SI base
+    var fFrom = fromDef.toSI;
+    var fTo   = toDef.fromSI;
+    if (fFrom <= 0 || (1/fTo) <= 0) return null;
+    siValue = val * fFrom;
+    result  = val * fFrom * fTo;
+    factor  = fFrom * fTo;
+  }
+
+  return {
+    value:    val,
+    result:   result,
+    siValue:  siValue,
+    factor:   factor,
+    fromUnit: fromDef,
+    toUnit:   toDef,
+    category: cat,
+    siUnit:   def.siUnit,
+    siLabel:  def.siLabel
+  };
+}
+
+function formatNumber(n, decimals, rounding) {
+  if (!isFinite(n)) return '—';
+  if (rounding === 'scientific') {
+    return n.toExponential(Math.min(decimals, 15));
+  }
+  if (rounding === 'truncate') {
+    var factor = Math.pow(10, decimals);
+    n = Math.trunc(n * factor) / factor;
+    return n.toFixed(decimals);
+  }
+  return parseFloat(n.toPrecision(15)).toFixed(decimals);
+}
+
+/* =============================================================
+   RECALC
+============================================================= */
+function recalc() {
+  // Read state from DOM
+  state.category  = document.getElementById('category').value;
+  state.fromUnit  = document.getElementById('fromUnit').value;
+  state.toUnit    = document.getElementById('toUnit').value;
+  state.decimals  = parseInt(document.getElementById('decimals').value, 10) || 6;
+  var roundEl = document.querySelector('input[name="rounding"]:checked');
+  state.rounding  = roundEl ? roundEl.value : 'standard';
+  state.showSI    = document.getElementById('opt-si').classList.contains('on');
+  var dataMode = document.querySelector('input[name="dataMode"]:checked');
+  state.dataMode  = dataMode ? dataMode.value : 'decimal';
+
+  var raw = document.getElementById('inputValue').value.trim();
+  if (raw === '' || raw === null) {
+    showEmpty();
+    saveStorage();
+    return;
+  }
+  var val = parseFloat(raw);
+
+  // Validate
+  if (!isFinite(val) || isNaN(val)) {
+    showResults(null, [{ type: 'error', icon: 'error.svg', msg: 'La valeur saisie n\'est pas un nombre valide.' }]);
+    return;
+  }
+
+  var res = calculate();
+  if (!res) {
+    showResults(null, [{ type: 'error', icon: 'error.svg', msg: 'Erreur de configuration des unités.' }]);
+    return;
+  }
+  if (res.error === 'temp_impossible') {
+    showResults(null, [{ type: 'error', icon: 'warning.svg', msg: 'La conversion conduit à une température inférieure à 0 K, ce qui est physiquement impossible.' }]);
+    return;
+  }
+
+  lastResult = res;
+  state.value = val;
+
+  // Build alerts (bottom)
+  var bottomAlerts = [];
+  if (Math.abs(res.result) > 1e12) {
+    bottomAlerts.push({ type: 'info', icon: 'info.svg', msg: 'Le résultat est très grand. Un affichage scientifique peut améliorer la lisibilité.' });
+  }
+  if (Math.abs(res.result) < 1e-9 && res.result !== 0) {
+    bottomAlerts.push({ type: 'info', icon: 'info.svg', msg: 'Le résultat est très petit. Un affichage scientifique peut améliorer la lisibilité.' });
+  }
+  if (state.fromUnit === state.toUnit) {
+    bottomAlerts.push({ type: 'info', icon: 'info.svg', msg: 'L\'unité source et l\'unité cible sont identiques. La valeur reste inchangée.' });
+  }
+  if (state.category === 'donnees' && state.dataMode === 'binary') {
+    bottomAlerts.push({ type: 'info', icon: 'info.svg', msg: 'Mode binaire IEC activé : KiB, MiB et GiB utilisent des puissances de 2.' });
+  }
+
+  showResults(res, [], bottomAlerts);
+  saveStorage();
+}
+
+function showEmpty() {
+  document.getElementById('emptyState').style.display = '';
+  document.getElementById('resultsContent').style.display = 'none';
+  lastResult = null;
+}
+
+function showResults(res, topAlerts, bottomAlerts) {
+  document.getElementById('emptyState').style.display = 'none';
+  document.getElementById('resultsContent').style.display = '';
+
+  // Top alerts
+  document.getElementById('alertsZone').innerHTML = renderAlerts(topAlerts || []);
+  // Bottom alerts
+  document.getElementById('alertsZoneBottom').innerHTML = renderAlerts(bottomAlerts || []);
+
+  if (!res) return;
+
+  var decimals = state.decimals;
+  var rounding = state.rounding;
+
+  // Main result
+  var resultFormatted = formatNumber(res.result, decimals, rounding);
+  document.getElementById('resultValue').textContent = resultFormatted;
+  document.getElementById('resultUnitDisplay').textContent = res.toUnit.label;
+  document.getElementById('resultLabel').textContent = 'Résultat en ' + res.toUnit.label;
+
+  // Metrics
+  document.getElementById('metricFrom').textContent = formatNumber(res.value, Math.min(decimals, 6), rounding);
+  document.getElementById('metricFromUnit').textContent = res.fromUnit.label;
+
+  if (res.factor !== null && res.factor !== undefined) {
+    document.getElementById('metricFactor').textContent = formatNumber(res.factor, Math.min(decimals, 10), 'scientific');
+  } else {
+    document.getElementById('metricFactor').textContent = 'f(x)';
+  }
+
+  // Breakdown
+  document.getElementById('breakdownZone').innerHTML = renderBreakdown(res);
+}
+
+function renderAlerts(alerts) {
+  if (!alerts || !alerts.length) return '';
+  return alerts.map(function(a) {
+    return '<div class="alert ' + a.type + '"><span class="alert-icon"><span class="ui-icon" data-icon="' + a.icon + '" aria-hidden="true"></span></span><span>' + escHtml(a.msg) + '</span></div>';
+  }).join('');
+}
+
+function renderBreakdown(res) {
+  var h = '<div class="breakdown">';
+  var decimals = state.decimals;
+  var rounding = state.rounding;
+
+  // Group 1: Résultat principal
+  h += bkGroup('Résultat principal', formatNumber(res.result, Math.min(decimals, 6), rounding) + ' ' + res.toUnit.key, [
+    bkRow('Valeur source', res.fromUnit.label, formatNumber(res.value, Math.min(decimals, 6), rounding)),
+    bkRow('Unité source', '', res.fromUnit.label),
+    bkRow('Valeur cible', res.toUnit.label, formatNumber(res.result, decimals, rounding)),
+    bkRow('Unité cible', '', res.toUnit.label)
+  ], true);
+
+  // Group 2: Détail du calcul
+  var calcRows = [];
+  if (res.factor !== null && res.factor !== undefined) {
+    calcRows.push(bkRow('Facteur source → SI', '', formatNumber(res.fromUnit.toSI, 10, 'scientific')));
+    if (state.showSI) {
+      calcRows.push(bkRow('Valeur SI intermédiaire', res.siLabel, formatNumber(res.siValue, decimals, rounding)));
+    }
+    calcRows.push(bkRow('Facteur SI → cible', '', formatNumber(res.toUnit.fromSI, 10, 'scientific')));
+    calcRows.push(bkRow('Formule', '', 'v × ' + formatNumber(res.fromUnit.toSI, 8, 'scientific') + ' × ' + formatNumber(res.toUnit.fromSI, 8, 'scientific')));
+  } else {
+    // Temperature
+    if (state.showSI) {
+      calcRows.push(bkRow('Valeur en kelvin (SI)', 'K', formatNumber(res.siValue, decimals, rounding)));
+    }
+    calcRows.push(bkRow('Formule', '', 'Conversion affine via K'));
+  }
+  h += bkGroup('Détail du calcul', res.factor !== null ? '× ' + formatNumber(res.factor, 6, 'scientific') : 'affine', calcRows, false);
+
+  // Group 3: Informations d'unité
+  var infoRows = [
+    bkRow('Catégorie', '', document.getElementById('category').options[document.getElementById('category').selectedIndex].text),
+    bkRow('Unité SI de base', '', res.siLabel),
+    bkRow('Type de conversion', '', res.factor !== null ? 'Linéaire (× facteur)' : 'Affine (décalage + facteur)')
+  ];
+  if (state.category === 'donnees') {
+    infoRows.push(bkRow('Mode données', '', state.dataMode === 'binary' ? 'Binaire IEC (puissances de 2)' : 'Décimal SI (puissances de 10)'));
+  }
+  h += bkGroup('Informations d\'unité', res.siUnit, infoRows, false);
+
+  h += '</div>';
+  setTimeout(hydrateIcons, 0);
+  return h;
+}
+
+function bkGroup(title, badge, rows, open) {
+  var id = 'bkg_' + Math.random().toString(36).substr(2,6);
+  var openClass = open ? ' open' : '';
+  return '<div class="bk-group' + openClass + '">' +
+    '<div class="bk-group-head" onclick="toggleBkGroup(this)" role="button" tabindex="0" aria-expanded="' + (open ? 'true' : 'false') + '" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();toggleBkGroup(this)}">' +
+    '<span class="bk-group-title">' + escHtml(title) + '<span class="bk-arrow">&#9660;</span></span>' +
+    '<span class="bk-group-amt">' + escHtml(badge) + '</span>' +
+    '</div>' +
+    '<div class="bk-rows">' + rows.join('') + '</div>' +
+    '</div>';
+}
+
+function bkRow(name, detail, amount) {
+  return '<div class="bk-row">' +
+    '<div class="bk-row-left">' +
+    '<span class="bk-row-name">' + escHtml(name) + '</span>' +
+    (detail ? '<span class="bk-row-detail">' + escHtml(detail) + '</span>' : '') +
+    '</div>' +
+    '<span class="bk-row-amt">' + escHtml(String(amount)) + '</span>' +
+    '</div>';
+}
+
+function toggleBkGroup(head) {
+  var group = head.parentElement;
+  group.classList.toggle('open');
+  head.setAttribute('aria-expanded', group.classList.contains('open') ? 'true' : 'false');
+}
+
+function escHtml(str) {
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* =============================================================
+   CATEGORY / UNIT INTERACTIONS
+============================================================= */
+function onCategoryChange() {
+  var cat = document.getElementById('category').value;
+  state.category = cat;
+  // Show/hide data mode toggle
+  document.getElementById('opt-data').style.display = cat === 'donnees' ? '' : 'none';
+  // Update default units per category
+  var defaults = {
+    longueur:    { from: 'm',   to: 'km' },
+    masse:       { from: 'kg',  to: 'lb' },
+    surface:     { from: 'm2',  to: 'ft2' },
+    volume:      { from: 'l',   to: 'usgal' },
+    temperature: { from: 'C',   to: 'F' },
+    temps:       { from: 'h',   to: 's' },
+    vitesse:     { from: 'kmh', to: 'mph' },
+    pression:    { from: 'bar', to: 'psi' },
+    energie:     { from: 'kWh', to: 'J' },
+    puissance:   { from: 'kW',  to: 'W' },
+    angle:       { from: 'deg', to: 'rad' },
+    donnees:     { from: 'GB',  to: 'MB' }
+  };
+  var d = defaults[cat] || { from: null, to: null };
+  state.fromUnit = d.from;
+  state.toUnit   = d.to;
+  populateUnitSelects(cat);
+  recalc();
+}
+
+function onDataModeChange() {
+  var dataMode = document.querySelector('input[name="dataMode"]:checked');
+  state.dataMode = dataMode ? dataMode.value : 'decimal';
+  state.fromUnit = state.dataMode === 'binary' ? 'GiB' : 'GB';
+  state.toUnit   = state.dataMode === 'binary' ? 'MiB' : 'MB';
+  populateUnitSelects('donnees');
+  recalc();
+}
+
+function swapUnits() {
+  var fromSel = document.getElementById('fromUnit');
+  var toSel   = document.getElementById('toUnit');
+  var tmp = fromSel.value;
+  fromSel.value = toSel.value;
+  toSel.value = tmp;
+  state.fromUnit = fromSel.value;
+  state.toUnit   = toSel.value;
+  recalc();
+}
+
+function toggleOpt(key) {
+  var item = document.getElementById('opt-' + key);
+  if (!item) return;
+  var isOn = item.classList.toggle('on');
+  var toggle = item.querySelector('.opt-toggle');
+  if (toggle) toggle.setAttribute('aria-expanded', isOn ? 'true' : 'false');
+  state.opts[key] = isOn;
+  if (key === 'si') { state.showSI = isOn; }
+  recalc();
+}
+
+/* =============================================================
+   STORAGE
+============================================================= */
+function saveStorage() {
+  try {
+    var toSave = {
+      category:  state.category,
+      fromUnit:  document.getElementById('fromUnit').value,
+      toUnit:    document.getElementById('toUnit').value,
+      value:     document.getElementById('inputValue').value,
+      decimals:  document.getElementById('decimals').value,
+      rounding:  state.rounding,
+      dataMode:  state.dataMode,
+      opts:      state.opts
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+  } catch(e) {}
+}
+
+function loadStorage() {
+  try {
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return false;
+    var s = JSON.parse(raw);
+    if (s.category) {
+      document.getElementById('category').value = s.category;
+      state.category = s.category;
+      document.getElementById('opt-data').style.display = s.category === 'donnees' ? '' : 'none';
+    }
+    if (s.dataMode) {
+      state.dataMode = s.dataMode;
+      var dmEl = document.getElementById(s.dataMode === 'binary' ? 'dataBinary' : 'dataDecimal');
+      if (dmEl) dmEl.checked = true;
+    }
+    state.fromUnit = s.fromUnit || null;
+    state.toUnit   = s.toUnit   || null;
+    populateUnitSelects(state.category);
+    if (s.value) document.getElementById('inputValue').value = s.value;
+    if (s.decimals) document.getElementById('decimals').value = s.decimals;
+    if (s.rounding) {
+      var rEl = document.getElementById('round' + s.rounding.charAt(0).toUpperCase() + s.rounding.slice(1));
+      if (rEl) rEl.checked = true;
+    }
+    if (s.opts) {
+      Object.keys(s.opts).forEach(function(k) {
+        if (s.opts[k]) {
+          var item = document.getElementById('opt-' + k);
+          if (item) {
+            item.classList.add('on');
+            var toggle = item.querySelector('.opt-toggle');
+            if (toggle) toggle.setAttribute('aria-expanded', 'true');
+            state.opts[k] = true;
+          }
+        }
+      });
+      state.showSI = !!(s.opts.si);
+    }
+    return true;
+  } catch(e) { return false; }
+}
+
+function loadFromURL() {
+  try {
+    var params = new URLSearchParams(location.search);
+    if (!params.has('cat')) return false;
+    var cat = params.get('cat');
+    document.getElementById('category').value = cat;
+    state.category = cat;
+    document.getElementById('opt-data').style.display = cat === 'donnees' ? '' : 'none';
+    if (params.has('mode')) {
+      state.dataMode = params.get('mode');
+      var dmEl = document.getElementById(state.dataMode === 'binary' ? 'dataBinary' : 'dataDecimal');
+      if (dmEl) dmEl.checked = true;
+    }
+    state.fromUnit = params.get('from') || null;
+    state.toUnit   = params.get('to')   || null;
+    populateUnitSelects(cat);
+    if (params.has('v')) document.getElementById('inputValue').value = params.get('v');
+    if (params.has('dec')) document.getElementById('decimals').value = params.get('dec');
+    if (params.has('round')) {
+      var rEl = document.getElementById('round' + params.get('round').charAt(0).toUpperCase() + params.get('round').slice(1));
+      if (rEl) rEl.checked = true;
+    }
+    return true;
+  } catch(e) { return false; }
+}
+
+/* =============================================================
+   SHARE / PDF
+============================================================= */
+function shareURLAction() {
+  var params = new URLSearchParams({
+    cat:   state.category,
+    from:  document.getElementById('fromUnit').value,
+    to:    document.getElementById('toUnit').value,
+    v:     document.getElementById('inputValue').value || '',
+    dec:   document.getElementById('decimals').value,
+    round: state.rounding,
+    mode:  state.dataMode
+  });
+  var url = location.origin + location.pathname + '?' + params.toString();
+  document.getElementById('shareUrl').value = url;
+  document.getElementById('shareField').style.display = 'flex';
+}
+
+function copyURL() {
+  var text = document.getElementById('shareUrl').value;
+  navigator.clipboard.writeText(text).then(function() {
+    showToast('Lien copié !');
+    document.getElementById('shareField').style.display = 'none';
+  }).catch(function() { fallbackCopy(text); });
+}
+
+function fallbackCopy(text) {
+  var el = document.createElement('textarea');
+  el.value = text;
+  el.style.position = 'fixed';
+  el.style.opacity = '0';
+  document.body.appendChild(el);
+  el.select();
+  try { document.execCommand('copy'); showToast('Lien copié !'); } catch(e) {}
+  document.body.removeChild(el);
+  document.getElementById('shareField').style.display = 'none';
+}
+
+function exportPDF(btn) {
+  if (!lastResult) { showToast('Lancez d\'abord une conversion.'); return; }
+  if (typeof window.jspdf === 'undefined') { showToast('PDF indisponible'); return; }
+  try {
+    var doc = new window.jspdf.jsPDF({ unit: 'pt', format: 'a4' });
+    var margin = 40;
+    var y = 60;
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(18);
+    doc.setTextColor(15, 118, 110);
+    doc.text('convertisseur-mesure.fr — Résultat de conversion', margin, y);
+    y += 30;
+    doc.setFontSize(11);
+    doc.setTextColor(100, 100, 100);
+    doc.text('Généré le ' + new Date().toLocaleDateString('fr-FR'), margin, y);
+    y += 30;
+    doc.setDrawColor(200, 200, 200);
+    doc.line(margin, y, 555, y);
+    y += 20;
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(13);
+    doc.setTextColor(0, 0, 0);
+    var decimals = state.decimals;
+    var rounding = state.rounding;
+    doc.text('Valeur source : ' + formatNumber(lastResult.value, Math.min(decimals, 6), rounding) + ' ' + lastResult.fromUnit.label, margin, y);
+    y += 22;
+    doc.text('Résultat : ' + formatNumber(lastResult.result, decimals, rounding) + ' ' + lastResult.toUnit.label, margin, y);
+    y += 22;
+    if (lastResult.siValue !== undefined) {
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(11);
+      doc.setTextColor(80, 80, 80);
+      doc.text('Valeur SI (' + lastResult.siUnit + ') : ' + formatNumber(lastResult.siValue, Math.min(decimals, 8), rounding), margin, y);
+      y += 18;
+    }
+    if (lastResult.factor !== null && lastResult.factor !== undefined) {
+      doc.text('Facteur appliqué : ' + formatNumber(lastResult.factor, 10, 'scientific'), margin, y);
+      y += 18;
+    }
+    y += 10;
+    doc.setDrawColor(200, 200, 200);
+    doc.line(margin, y, 555, y);
+    y += 16;
+    doc.setFontSize(9);
+    doc.setTextColor(150, 150, 150);
+    doc.text('Outil informatif — ne remplace pas une norme sectorielle ou un étalonnage officiel. Sources : BIPM &amp; NIST 2026.', margin, y);
+    doc.save('conversion-mesure.pdf');
+    showToast('PDF généré !');
+  } catch(e) { showToast('Erreur PDF'); }
+}
+
+/* =============================================================
+   TOAST
+============================================================= */
+function showToast(msg) {
+  var t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(function() { t.classList.remove('show'); }, 2500);
+}
+
+/* =============================================================
+   MODAL
+============================================================= */
+function openModal() {
+  document.getElementById('sourcesModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  buildSources();
+  buildLinks();
+}
+function closeModal() {
+  document.getElementById('sourcesModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function closeModalOverlay(e) {
+  if (e.target === document.getElementById('sourcesModal')) closeModal();
+}
+function switchModalTab(tab, btn) {
+  document.querySelectorAll('.modal-pane').forEach(function(p) { p.classList.remove('active'); });
+  document.querySelectorAll('.modal-tab').forEach(function(b) { b.classList.remove('active'); });
+  document.getElementById('pane-' + tab).classList.add('active');
+  btn.classList.add('active');
+}
+function buildSources() {
+  var tbody = document.getElementById('sourcesBody');
+  if (tbody.innerHTML) return;
+  var h = '';
+  SOURCES.forEach(function(s) {
+    h += '<tr><td>' + escHtml(s.n) + '</td><td><span class="rate-pill">' + escHtml(s.t) + '</span></td><td>' + escHtml(s.a) + '</td>';
+    h += '<td><a href="' + escHtml(s.u) + '" target="_blank" rel="noopener noreferrer">' + escHtml(s.s) + '</a></td><td>' + escHtml(s.d) + '</td></tr>';
+  });
+  tbody.innerHTML = h;
+}
+function buildLinks() {
+  var zone = document.getElementById('linksZone');
+  if (zone.innerHTML) return;
+  var h = '';
+  SOURCE_LINKS.forEach(function(l) {
+    h += '<div class="link-card"><div><div class="lc-title">' + escHtml(l.t) + '</div><div class="lc-desc">' + escHtml(l.d) + '</div></div>';
+    h += '<a class="lc-link" href="' + escHtml(l.u) + '" target="_blank" rel="noopener noreferrer">Consulter &rarr;</a></div>';
+  });
+  zone.innerHTML = h;
+}
+
+/* =============================================================
+   THEME
+============================================================= */
+function toggleTheme() {
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+  localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  updateThemeIcon();
+}
+function updateThemeIcon() {
+  var icon = document.getElementById('themeIcon');
+  if (!icon) return;
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  icon.setAttribute('data-icon', isDark ? 'theme-light.svg' : 'theme-dark.svg');
+  hydrateIcons();
+}
+
+/* =============================================================
+   COOKIES
+============================================================= */
+function loadCookiePreferences() {
+  try {
+    var raw = localStorage.getItem(COOKIE_KEY);
+    if (raw) { cookies = JSON.parse(raw) || { essential: true }; return; }
+    setTimeout(function() { var b = document.getElementById('cookieBanner'); if (b) b.classList.add('show'); }, 1500);
+  } catch(e) {
+    setTimeout(function() { var b = document.getElementById('cookieBanner'); if (b) b.classList.add('show'); }, 1500);
+  }
+}
+function saveCookiePreferences() { try { localStorage.setItem(COOKIE_KEY, JSON.stringify(cookies)); } catch(e) {} }
+function closeCookieBanner() { var b = document.getElementById('cookieBanner'); if (b) b.classList.remove('show'); }
+function acceptAllCookies()  { cookies = { essential: true }; saveCookiePreferences(); closeCookieBanner(); showToast('Préférences enregistrées'); }
+function rejectCookies()     { cookies = { essential: true }; saveCookiePreferences(); closeCookieBanner(); showToast('Préférences enregistrées'); }
+function openCookieSettingsModal()  { document.getElementById('cookieSettingsModal').classList.add('open'); closeCookieBanner(); document.body.style.overflow = 'hidden'; }
+function closeCookieSettingsModal() { document.getElementById('cookieSettingsModal').classList.remove('open'); document.body.style.overflow = ''; }
+function closeCookieModalOverlay(e) { if (e.target === document.getElementById('cookieSettingsModal')) closeCookieSettingsModal(); }
+function saveFromModal()      { cookies.essential = true; saveCookiePreferences(); closeCookieSettingsModal(); showToast('Préférences enregistrées'); }
+function rejectAllFromModal() { cookies = { essential: true }; saveCookiePreferences(); closeCookieSettingsModal(); showToast('Préférences enregistrées'); }
+
+/* =============================================================
+   INIT
+============================================================= */
+document.addEventListener('DOMContentLoaded', function() {
+  // Populate initial unit selects
+  populateUnitSelects(state.category);
+
+  var urlLoaded = location.search.length > 1 && loadFromURL();
+  if (!urlLoaded) loadStorage();
+
+  recalc();
+  loadCookiePreferences();
+  updateThemeIcon();
+
+  var acceptBtn   = document.getElementById('cookieAccept');
+  var rejectBtn   = document.getElementById('cookieReject');
+  var settingsBtn = document.getElementById('cookieSettings');
+  if (acceptBtn)   acceptBtn.addEventListener('click', acceptAllCookies);
+  if (rejectBtn)   rejectBtn.addEventListener('click', rejectCookies);
+  if (settingsBtn) settingsBtn.addEventListener('click', openCookieSettingsModal);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { closeModal(); closeCookieSettingsModal(); }
+  });
+
+  hydrateIcons();
+
+  window.__CALC_STATE__ = function() {
+    return { site: SITE_META.id, state: state, result: lastResult };
+  };
+});
+</script>
+</body>
+</html>
